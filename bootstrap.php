@@ -18,4 +18,4 @@ Autoloader::add_classes(array(
     'TwigPlus\\TwigPlus'    => PKGPATH.'twigplus/classes/twigplus.php',
 ));
 
-/* End of file bootstrap.php */
+/* End of file bootstrap.phpp */
