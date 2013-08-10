@@ -30,7 +30,7 @@ class TwigPlus extends \Twig_Extension{
     }
 
     public function write_flash($flash){
-        return implode('</p><p>', (array) Session::get_flash($flash));
+        return implode('</p><p>', (array) \Session::get_flash($flash));
     }
 
     public function get_home(){
